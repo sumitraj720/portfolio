@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meet Soni | Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    /* Custom Animations */
+    body{
+        cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCgzi7fzF0vgNDQ+HQziIRTaIRTaGRTUODQoNDAwODAzEYkiIQzWIRTaIRTaFRTYODgpdQzk+KB8BAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQsJCwv/sZjGYU3FYkqIRTaGRTcKDAxmQjkODwr/sJfBY0nFYkqIRTaGRTgJDAxfQTtPMiwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGDQn5sZbCYkq+Y0MLDA16XFRfQTpfPzcPDAr6sZPCYkq9ZEgMDQ5gQjg/JyIBAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALDA8MDAwLCgsAAAABAQABAQE+JyNBKCEPDAwMDAwNDA5BJyECAQECAQGogYQBAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgHk7Prk7Pzl7fzl7fzg7/zl7Pzl7Pnk7Pvg7vrE0vmiteiqgYTcvL0CAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAwLi7Pnk7vvj7fvk7fqnovenoffj6/3j7fvj7fvj7fvk6/rm7fmfsezJoKMBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEDAAHj7fvj7fvj7fvj7fvH1vSoofmoofjG1/Lj7fvj7fvj7fvj7fvk7fjB1Pnj7P3j6vwEBAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQHZvb2jtOjh7/vbyPrm7Prm7fzj7fvj7fvj7fvj7fvh7vvk7fjbyPrbyPrj7P3YvbnE0vijterl6voBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQUAAQAAAQDavLz05OKktej8/P74yz/89bb4yzzj7fvj7fvj7fvj7fv8/P/3yj789bb4zD3+//724+LYvb2ltufm7vzLoKEDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQDbu7qsgoT05OL05ePKnqPUy8/QhCmVTizRgi/HoaLQoaLl7f714uHVy9DQhSqWTi3Rgi7SydLKn6L35OTG0/nj6/yqgYQCAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQHbvL3////05eKpgIPfu7z//v/+///05+Xaurvz4+LHoaLJoqT15OL//v/+/v/15uTXu7ytf4Pz5ePJoaTKn6LYubrcu70BAgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH05eP+/P335ePHoaOpgoTLn6TMoKPHoaPbu7zx5uP9///bvL3JoaPIoaTNoaPGoaOqgIL////+///HoaPWvLzZu7zy5eL05OIAAQEAAAAAAAAAAAAAAAAAAQAAAQAAAAD7//7+/P3KoKL25uT+/f3C0vz05OXJoKP+///Xu7v7///z5uTG1PrE0/r6/v3bvLvz5uT////////Yu7vburv//////v4BAAAAAAAAAAAAAAAAAAAAAQHavL3avLypgYP////+/v7Zu7v6/v/8/f/Zu7urgoXYvb39/v/05eP+/v7+/v+sf4PH0vn+///9/v/15eP////+///avLz6/f7////+///HoaIAAQAAAAEAAAAAAAAAAAAAAAHYu7zYvLz////////05eL///+pgYOngIP9/f3curv+///+/P39/v7////w5OGtgYSwgIP7/v7y5eL////////////9/v7+/v7fubv25OP24uEAAAEAAAAAAAAAAAAAAAAAAQTXu7v8///9///05eL9/v/////+/////v725ePIoaPKoKL7/v/7/v79/v/Zu7zZu7z////////////////Zu7z+/v/04+L25OP05OIAAQEAAAAAAAAAAAAAAAAAAAAAAAACAQLfur39///8///Zu7z////////////+///au7z54+PKn6L//v/9///z5+T9///Zu7z////Zu7z////Zu7z+/f/15eT+/v8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgH+/f78///15eT8/v7////////////////////Xu7v+///y5uTXubn+/f/25OP////z5uL////////////////65eb8/f765eb65eYAAAAAAAAAAAAAAAAAAAAAAQL//////////v7////////////+/v/Zurz+/v/9/v77/v7aurv//f////7+/v7///7///7///79///9///Zu7z9+/z7+fv9///65eb65eYAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAQD14+D////9///////+/v7x5OLau7z9/f7////9///9///9///9///Zu7z9///Zu7z9///9///9///9///9///65eb65eb65eYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQLeu7v+/v8AAAABAQH+/v78//7x5OH////34+P9//79///9///9///9///9///9///9///+//79///9///65eb65eb65eYAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAP55OX8/v4DAAFSNC6BWlMCAgL+/v7+/v/7/Pz9/v79///9///9///8/f7Zu7z9///Zu7z9///9///9///65eb9///9//////4AAAAAAAAAAAAAAAAAAAAAAAAAAQDz5uP///4AAQJPMi56W1G/n5UCAgL+///05uP////9/v/9///9///9///9///9///Zu7z9///9///9///9///9///9/v/9//8AAAAAAAAAAAAAAAAAAAAAAAAAAAABAgD7/f0BAQFONC17WlO+n5kCAwP////+///9///9///////9///7///////+///+///8/v7////+///9///avb37//7ZuLsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD9/vwBAQFRNC18XFO7npgAAQL+/v7////////////du73////////cvL3////////////dvb315OP15OP25OMBAQEBAQEGAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAD9//8BAQFRMy15WlLBn5cAAQD+/f7+/v4BAQEBAgKtgoT6/f7////////Mn6LIoqL///////8BAgIBAAEBAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///0AAQFNMS16W1K6oJUAAAD9/v4BAQEBAQMAAAAAAAAAAQD9/f3///8AAQLJoqIAAQAAAQH///8BAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD9//4BAQFONC16WlO+oJoBAwL9/v4AAAAAAAAAAAAAAAAAAAAAAQD///8BAQIAAAADAQEAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///4BAQF8XFO7npcBAAH7//8AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD9/v4BAQHAoJYDAgIEAwP//f8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///4BAQECAAD///////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v39/f39/v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAD/+AAA//4AAf//EAB//+AAP//AAD//AAAf/gAAD/AAAAfwAAAH+AAAA/gAAAHgAAADwAAAAOAAAADwAAAB+AAAA/AAAAPgAAAD8AAAA/wAAAP4AAAD8AAAB/AAAA/wAAAP4AAAf8AYA/+A+LP/gfn//wP///8H////H////w=='), auto;
+    }
+    a:hover, p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, span:hover, div:hover {
+        cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQHm7vmftuoBAgWn1Mqn1c3+///g+fTf+fQAAgFgOkVhOkU7ISZhOkVjOkUFAAGir6yFko/u6urr6+rCy8xtu5oBAAHE1Pbi7fwAAAEAAAAAAAAAAAAAAAAAAAAAAAABAADm7f3J1PkDAgHD6eD8/v9/17Juu5ptupng+fUAAwFjOkY7ISRjO0ZOLTRQKzMCAgLGy8qgsa7s6urDysrLx8mksawEAwADAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAHG6uDd+vb+/P6E17KB1rFsupnh+vYBAgFlOkVMKjKSXXBiO0U4HyRlO0YCAADq6+uksK7r6urFy8oAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQHh9/PF6OP9///////e+fQAAQA6ISNOKjEfDhRjOkVPKTRMKTUgDhRNJy8EAgLGzs2Fk5EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEDAAECAAAAAAADAQECAQHl7fzj7f3l7Pvk7/nF1Pjm7fzk7Prj7f3k7fwHAwMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBgfi7Pni7Pnj7fvg6/afs+rh7Pv///7j7fvj7fvk7vvi7Prf6/eetecCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQDj7fvi7P7///7k7frH0/mfsujg7fji7fnj7fvj7fvj7fvj7fvl7vjB0/vj7fnl7vwCAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCgt+bl6/zj7fzj7fvk7fvj7vzm7PmftefE1frj7fvj7fvj7fvj7fvh6/rfw73G1fWjsuji7fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCgt+fF0/wmHyAmHyAmHyAqICHj6vrk6/okHSAmHyAmHyAmHyAmHyAlHh7z5OHHo5+et+Xi7fsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQCDgLcpICFRRkhRRkhRRkgnICAmHh8lHh8jHR0lHyBRRkhRRkgmICElHh8kHiAjHyDG0PPi7fsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAkHh+AcnN/cXJSSEkjHh8kHh8lHyAmHyCCdXNSR0lTSEpSR0lTSEolHyAlHyBSR0kjHh8lHyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQB/cXOAcnOAcnOAcnN/cnJSR0klHyAlHyBSRkiAcnOAcnQlHyAlHyAlHyAkHh8mICFRRkglHyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAcnOAc3NSR0lRR0kkHyAlHyAkHh9SRkgmHyAkHyAoICElHyAlHyBSR0lTSEolHyAmICElHyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEFAAGsgINRSEkmICEkHyAkHh8mICElHyAkHh8nICEmICElHyAlHyAlHyAlHyAkHyBTSEpSR0klHyAnICOngIMBAAEAAAAAAAAAAAD///7+/v79/v8AAAD////+/v78/f+ogICpgILdw8Pz5OL////z5eLcwcHewsPy5OL05eP05ePewsLfwsP15OP05ePgwcL7/f3z5OLy4+PbwsKpgIKrgYIBAgIAAAAAAAD+/v4BAQEAAAH//v0CAAAAAAD7/P0CAADz4+Lz5eT9///////z5eLcwcH7//7dwcLz5OP05OP05uTfwsP15OP05OP15uT8///+///04+Lz5eP25eQCAQEAAAAAAAAAAAAAAAD9/v79/f0AAAD///////8DAgHhwcLy5eP9/v7////////05uP9///+/v/fwsP05OL9/f38///fwsP15OP9/f315eP////////y5eP05eP14+L9/PwCAQEAAAAAAAAAAAAAAAD///8AAAD9//7dwsLdwcL15ePz5OPfwsP////9/v7//v79///+/v/fwcL+/v79///5/f325ePdwcL//////v/////////y5eP9///8//7///////8BAQIAAAAAAAAAAAD///8AAAD///8DAQHZwsLZwsKkgIH7/v/ewsH////////////+/v7y4d///f7////9+/v////05+b////8+/v////+/v7///7///79/////////v/ewMAAAAAAAAAAAAD///8AAAD+/v4AAAACAAACAgH9/v79/v3////ewsH////////15OX7//705+b////9/f7////05+b05+b9/f705+b05+b////////////ewsH///+kgoQAAAAAAAAAAAD///8AAAD+//8AAAAAAAAAAAD////////////ewsH////////+/v77///////05+b////////05+b////+/v705+b+//7////////////////ewsGkgoQAAAAAAAAAAAD///8AAAD+//8AAAAEAwD//////v7z5+T////////////////////9/v/////05+b05+b9//3////////////05+b////////////9///ewsHewsH///8AAAAAAAAAAAD///8AAAD+//8AAAACAQH8//7bw8L//v/ewsH////ewsH5/v/////8/f7////05+b////////////////////////05+b+/f7////8/f7///////+kgoQAAAAAAAAAAAD///8AAAD+//8AAAABAQH15uUUDg79/fz////////ewsHy5+X////8/f309fT29vT+/v729vT39vT//f7+/v729vT05+b//P329fP9/f309fT29vQSEhIAAAAAAAAAAAD///8AAAD+//8AAAABAQEDAAAAAAACAwP//////v+ogYP15uT////////+///05+b//////////v/05+b////////////Wv8D////7//+kgoQEBAQAAAEAAAAAAAAAAAD///8AAAD+//8AAAAAAAAAAAAAAAAAAQD06ef7/f0cFhbjx8j///////////+ui4z////////+///gx8j////////+//8oICD////8/f0dFhZ5amUAAAAAAAAAAAAAAAD///8AAAD+//8AAAAAAAAAAAAAAAAEAgLewsP//v8AAQAMCwn55eX///////8IBgf45eX///////8LCQn///////8MDA0AAAANDg3///8DAQEAAAAAAAAAAAAAAAAAAAD///8AAAD+//8AAAAAAAAAAAAAAABqXlc8NDTz7OoAAQFoXldCPTz///////8AAABCPTz///////8AAABCQkL///8AAAAAAABoX1dDQ0NrX1gAAAAAAAAAAAAAAAAAAAD///8AAAD+//8AAAAAAAAAAAAAAAAAAABqYFpAOTgBAQEAAAAAAAD8/f307esAAAAAAAA+Pj7///8AAAAAAAA9Pj4AAAAAAAAAAABpYVsAAAAAAAAAAAAAAAAAAAD///////8AAAD9//////8AAAAAAAAAAAAAAAAAAABbU05bUk4AAAAAAAD8/v5ZU1FYUUsAAABdVVBfXl1aUUwAAABZUk4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8SEhISEhL///8SEhISEhL///8AAAAAAAAAAAAAAAAAAAAAAAAAAABRSEFxcXFQR0MAAAAAAAAAAABQSEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///7///////8AAAD////////+/v4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABJQT4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAPwAAAH+AAAH/4AAD//AAA///AAD//gAAf/wAAD/8AAA//AAAP/wAAD/8AAA//AAAP/AAABxAAAAMAAAAHgAAAA8AAAAHAAAABxAAAAcYAAAHEAAABxAAAAcQAAAHEgAABx4AAA8eAAEfHgABHx8Qi74PkIv8B/Hf/Ef7//w=='), auto; /* Different cursor on hover */
+    }
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-[#f5f0e1] text-[#333] font-sans overflow-x-hidden">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 bg-[#4b3832] text-[#f5f0e1] sticky top-0 z-50 shadow-md">
+    <h1 class="text-2xl font-bold tracking-wider">Meet Soni</h1>
+    <ul class="flex space-x-6">
+      <li><a href="#about" class="hover:text-[#d9bf77] transition-all duration-300">About</a></li>
+      <li><a href="#projects" class="hover:text-[#d9bf77] transition-all duration-300">Projects</a></li>
+      <li><a href="#contact" class="hover:text-[#d9bf77] transition-all duration-300">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col items-center justify-center h-screen text-center bg-[#d9bf77] text-[#4b3832] animate-fadeIn">
+    <h2 class="text-5xl md:text-6xl font-extrabold mb-4 animate-bounce">Hey, I'm Meet Soni</h2>
+    <p class="text-xl md:text-2xl mb-6 fade-in-up">A Passionate Developer & Designer</p>
+    <a href="#projects" class="bg-[#4b3832] text-[#f5f0e1] px-6 py-3 rounded-full hover:bg-[#333] transition-all duration-500 hover:scale-110">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="p-10 md:p-20 bg-[#f5f0e1]">
+    <h3 class="text-4xl font-bold mb-6 text-center fade-in-up">About Me</h3>
+    <p class="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto fade-in-up">
+      I'm a 15-year-old, 10th grader, creative soul who loves mixing technology with art. From building websites to designing graphics, I enjoy bringing ideas to life in the most beautiful way. Let's create something awesome together!
+    </p>
+  </section>
+  <!-- Skills Section -->
+<section id="skills" class="p-10 md:p-20 bg-[#f1f5f9]">
+  <h3 class="text-4xl font-bold mb-12 text-center text-[#1e293b] slide-in-left">Skills</h3>
+  <div class="flex flex-wrap justify-center gap-6 zoom-in">
+    <span class="bg-[#1e293b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">C</span>
+    <span class="bg-[#1e293b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">C++</span>
+    <span class="bg-[#1e293b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">Java</span>
+    <span class="bg-[#1e293b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">Python</span>
+    <span class="bg-[#1e293b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">HTML</span>
+    <span class="bg-[#1e293b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">CSS</span>
+    <span class="bg-[#1e293b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">JavaScript</span>
+    <span class="bg-[#64748b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">Assembly (Beginner)</span>
+    <span class="bg-[#64748b] text-[#f1f5f9] px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 transition-all duration-500">Batch Scripting (Beginner)</span>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="p-10 md:p-20 bg-[#e0c097]">
+    <h3 class="text-4xl font-bold mb-12 text-center text-[#4b3832] fade-in-up">Projects</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <!-- Project 1 -->
+      <div class="bg-[#f5f0e1] p-6 rounded-lg shadow hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+        <h4 class="text-2xl font-semibold mb-4">Portfolio Website</h4>
+        <p>A beautiful personal portfolio made with Tailwind CSS and love.</p>
+      </div>
+      <!-- Project 2 -->
+      <div class="bg-[#f5f0e1] p-6 rounded-lg shadow hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+        <h4 class="text-2xl font-semibold mb-4">Cool Web App</h4>
+        <p>A modern, functional web application built to solve real-world problems.</p>
+      </div>
+      <!-- Project 3 -->
+      <div class="bg-[#f5f0e1] p-6 rounded-lg shadow hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+        <h4 class="text-2xl font-semibold mb-4">Blog Website</h4>
+        <p>A clean and minimal blog site made using TailwindCSS and Markdown.</p>
+      </div>
+      <!-- Project 4 -->
+      <div class="bg-[#f5f0e1] p-6 rounded-lg shadow hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+        <h4 class="text-2xl font-semibold mb-4">E-commerce Store</h4>
+        <p>Fully responsive shopping website with cart and checkout system.</p>
+      </div>
+      <!-- Project 5 -->
+      <div class="bg-[#f5f0e1] p-6 rounded-lg shadow hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+        <h4 class="text-2xl font-semibold mb-4">Weather App</h4>
+        <p>A simple weather application that shows live weather data using an API.</p>
+      </div>
+      <!-- Project 6 -->
+      <div class="bg-[#f5f0e1] p-6 rounded-lg shadow hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+        <h4 class="text-2xl font-semibold mb-4">Chat Application</h4>
+        <p>A real-time chat app using websockets, modern UI, and smooth UX.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-10 md:p-20 bg-[#4b3832] text-[#f5f0e1]">
+    <h3 class="text-4xl font-bold mb-6 text-center fade-in-up">Contact Me</h3>
+    <p class="text-lg text-center mb-10 fade-in-up">Let's collaborate on something amazing. Reach out to me!</p>
+    <div class="flex justify-center">
+      <a href="mailto:your.email@example.com" class="bg-[#d9bf77] text-[#4b3832] px-6 py-3 rounded-full hover:bg-[#e6d5b8] hover:scale-110 transition-all duration-500">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-6 text-center bg-[#3c2f2f] text-[#f5f0e1]">
+    © 2025 Meet Soni. All rights reserved.
+  </footer>
+
+</body>
+</html>
